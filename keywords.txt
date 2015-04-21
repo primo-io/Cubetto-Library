@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For swRTC
+####################################### 
+# Datatypes (KEYWORD1)
+#######################################
+
+Cubetto	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################	
+
+init	KEYWORD2
+playHappyTune	KEYWORD2
+playSadTune	KEYWORD2
+playPairedTune	KEYWORD2
+playUnpairedTune	KEYWORD2
+playForwardTune	KEYWORD2
+playLeftTune	KEYWORD2
+playRightTune	KEYWORD2
+forward	KEYWORD2
+left	KEYWORD2
+right	KEYWORD2
+backward	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ciaodanilo 	LITERAL1
