@@ -1,3 +1,4 @@
+#include <AccelStepper.h>
 #include <Cubetto.h>
 #include <sound.h>
 

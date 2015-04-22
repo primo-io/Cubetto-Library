@@ -23,8 +23,6 @@
 
 #include "Arduino.h"
 #include "sound.h"
-#include "../AccelStepper/AccelStepper.h"
-#include "../AccelStepper/AccelStepper.cpp"
 
 #ifndef Cubetto_h
 #define Cubetto_h
