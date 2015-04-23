@@ -4,7 +4,7 @@
 ##Cubetto Library v0.1
 ###http://primo.io
 
-Created on Apr 2015 by Matteo Loglio
+Created on Apr 2015 by matteo@primo.io
 
 Use this library to program Cubetto robot from the Arduino IDE.
 
