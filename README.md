@@ -10,7 +10,11 @@ Use this library to program Cubetto robot from the Arduino IDE.
 
 ###Installation:
 
-The Cubetto library requires the "AccelStepper" library to run, which is included in "libraries.zip": after unzipping the file, copy the "AccelStepper" folder inside your Arduino "libraries" folder, usually located in your sketchbook folder.
+1. [Download](https://github.com/primo-io/Cubetto-Library/archive/master.zip) the Master branch from gitHub.
+2. Unzip and modify the Folder name to "CubettoLibrary" (Remove the dashes and the 'master')
+3. Paste the modified folder on your Library folder (On your `Libraries` folder inside Sketchbooks or Arduino software).
+4. Install the "AccelStepper" library (This Library is inside libraries.zip), coping it to the same place.
+5. Restart Arduino IDE
 
 **Remember to include the "AccelStepper" library, together with the "Cubetto" one**
 
