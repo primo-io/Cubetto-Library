@@ -6,9 +6,6 @@
 Cubetto cubetto;
 
 void setup() {
-  //.init() is required to initialize Cubetto
-  cubetto.init();
-  
   //we write these in the setup to execute them just once
   cubetto.forward();
   cubetto.left();  
