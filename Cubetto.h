@@ -55,6 +55,10 @@ AccelStepper rightStepper(AccelStepper::HALF4WIRE, PRIMO_RIGHT_STEPPER_PIN_1, PR
  class Cubetto
 {
 	public:
+	    Cubetto(){
+	    	init();
+	    }
+
 	    void init() {
 	    	pinMode(PRIMO_BUZZER_PIN, OUTPUT);
 
