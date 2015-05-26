@@ -88,65 +88,80 @@ AccelStepper rightStepper(AccelStepper::HALF4WIRE, PRIMO_RIGHT_STEPPER_PIN_1, PR
 
 	    ///////// SOUND ////////
 
-	    void playHappyTune()
+		void playHappyTune()
 		{
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_C6);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		    delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_E6);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		    delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_G6);
-		  delayMicroseconds(100 * 1000);
+		  for(int i = 0; i < 10; i++)
+		    delayMicroseconds(10 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playSadTune()
 		{
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_G5);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_DS5);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_C5);
-		  delayMicroseconds(300 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(30 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playPairedTune()
 		{
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_D6);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_F6);
-		  delayMicroseconds(150 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(15 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_DS5);
-		  delayMicroseconds(100 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(10 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playUnpairedTune()
-		{
+		{			
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_G3);
-		  delayMicroseconds(250 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(25 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_F3);
-		  delayMicroseconds(250 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(25 * 1000);
 		  tone(PRIMO_BUZZER_PIN, PRIMO_NOTE_B2);
-		  delayMicroseconds(300 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(30 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playForwardTune() {
 		  tone(PRIMO_BUZZER_PIN, 3000);
-		  delayMicroseconds(50 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(5 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playLeftTune() {
 		  tone(PRIMO_BUZZER_PIN, 5000);
-		  delayMicroseconds(50 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(5 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
 		void playRightTune() {
 		  tone(PRIMO_BUZZER_PIN, 4000);
-		  delayMicroseconds(50 * 1000);
+		  for(int i = 0; i < 10; i++)
+		  	delayMicroseconds(5 * 1000);
 		  noTone(PRIMO_BUZZER_PIN);
 		}
 
